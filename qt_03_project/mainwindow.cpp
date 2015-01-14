@@ -4,12 +4,18 @@
 #include <QPlainTextEdit>
 #include <QPushButton>
 #include <QSpinBox>
+#include <QTimer>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    this->startTimer(200);
+    m_timr = new QTimer();
+    m_timr->setInterval(200);
+    m_timr->start();
+
+    connect(m_timr, SIGNAL(timeout()),
+            this, SLOT(timerEvent()));
 
     ui->setupUi(this);
 
@@ -68,7 +74,7 @@ QString MainWindow::dajChoinke(unsigned wyso) {
 }
 
 
-void MainWindow::timerEvent(QTimerEvent *) {
+void MainWindow::timerEvent() {
     animujGwiazde();
 }
 
@@ -89,33 +95,7 @@ void MainWindow::animujGwiazde() {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+void MainWindow::on_spinBox_valueChanged(int arg1)
+{
+    m_timr->setInterval(arg1);
+}
