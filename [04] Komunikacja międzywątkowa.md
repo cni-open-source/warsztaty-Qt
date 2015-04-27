@@ -11,7 +11,7 @@ Uczestnicy zostali poprowadzeni przez następujące kroki:
 - ustawienie połączeń (_connect_)
   - pomiędzy nadajnikiem i odbiorcą
   - pomiędzy oknem nadawcy i nadajnikiem
-  - pomiędzy oknem odbiorcy i odniornikiem
+  - pomiędzy oknem odbiorcy i odbiornikiem
 - implementacja przesyłania wiadomości
   - po naciśnięciu przycisku GUI
   - w trakcie zmiany pisanego tekstu
