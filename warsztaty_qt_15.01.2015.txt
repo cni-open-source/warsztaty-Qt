@@ -1,0 +1,8 @@
+﻿Warsztaty Qt - sekcja CNI Open Source
+
+Zapraszamy na kolejne spotkanie z Qt.
+Na wstępie zostaną omówione niskopoziomowe metody synchronizacji wątków służące bezproblemowej modyfikacji współdzielonych danych. Pozostała część zajęć będzie się skupiać na zaimplementowania wybranej techniki przedstawionej na poprzednim spotkaniu.
+Celem zajęć jest przyswojenie podstaw wiedzy na temat użycia m.in.: QThread, QThreadPool, QtConcurrent::run(), QMutex, QSemaphore, QWaitCondition.
+
+WFiIS, parter, sala A104
+czwartek, 15. stycznia, 17:45 - 18:55

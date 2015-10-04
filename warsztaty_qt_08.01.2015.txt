@@ -1,0 +1,7 @@
+﻿Warsztaty Qt - sekcja CNI Open Source
+
+Zapraszamy na kolejne spotkanie z Qt.
+Tym razem zajmiemy się wprowadzeniem wątków do naszej aplikacji. Zostaną przedstawione różne techniki wielowątkowości oferowane przez Qt, w tym wady i zalety każdego z nich. Po tych zajęciach będziesz wiedzieć, której z metod użyć w swojej aplikacji, aby jak najefektywniej wykorzystać możliwości zarówno oprogramowania jak i sprzętu.
+
+WFiIS, parter, sala A104
+czwartek, 8. stycznia, 17:45 - 19:00
